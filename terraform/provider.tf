@@ -19,7 +19,7 @@ terraform {
 }
 
 provider "github" {
-  owner = "mc-host24"
+  owner = "tomaryrpg"
 }
 
 provider "cloudflare" {
