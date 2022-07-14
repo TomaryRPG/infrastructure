@@ -7,19 +7,11 @@ terraform {
 
 terraform {
   required_providers {
-    github = {
-      source  = "integrations/github"
-      version = "~> 4.0"
-    }
     cloudflare = {
       source  = "cloudflare/cloudflare"
       version = "~> 3.0"
     }
   }
-}
-
-provider "github" {
-  owner = "tomaryrpg"
 }
 
 provider "cloudflare" {
